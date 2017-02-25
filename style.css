@@ -1712,11 +1712,14 @@ input, .btn, button, select, option{
 }
 
 .anime-title h4{
-	font-size: 1.05em;
-	display: inline-block;
-	margin-top: 0.5em;
-	margin-bottom: 0;
-	overflow: hidden;
+    font-size: 1.05em;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    color: #4285f4;
 }
 
 .so-tap{
